@@ -1,131 +1,142 @@
-<h1 align="center">🎮 Interactive Horror UI – Main Menu Game “The Path”</h1>
+<div align="center" style="font-family:Arial;">
 
-<p align="center">
-UI Horror interaktif dengan efek glitch, atmosfer gelap, dan animasi transisi untuk menghadirkan pengalaman menu utama yang imersif.
+<h1 style="font-size:40px; font-weight:900; margin-bottom:10px;">
+🔥 Smart Hospital Management System
+</h1>
+
+<p style="font-size:16px; max-width:700px;">
+Sistem manajemen rumah sakit modern dengan integrasi <b>IoT</b>, <b>AI</b>, <b>Cloud</b>, dan <b>Big Data</b>.
+Dibangun menggunakan <b>PHP + MySQL + XAMPP</b> dengan arsitektur modular dan UI elegan.
 </p>
 
----
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmFuZG1sa2tobHNobzFqc2xvYXNqdGlkOXB1cG1yMHBnZTZmN2o4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/jt7bAtEijhurm/giphy.gif" 
+style="width:500px; border-radius:12px; margin:20px 0;" />
 
-## 🚀 Demo
+<br>
 
-### 🎥 Preview / Rekaman
-Tambahkan link demo di sini:
+<a href="#demo">
+<button style="
+  background:#0ea5e9; 
+  color:white; 
+  padding:12px 28px; 
+  border:none; 
+  border-radius:8px; 
+  font-size:16px;
+  cursor:pointer;
+  margin-top:10px;">
+🚀 Live Demo Section
+</button>
+</a>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="500">
-</p>
-
----
-
-## ✨ Fitur Utama
-
-- 🔥 Animasi glitch, fade, dan hover effect  
-- 👁 Tema horror atmosferik  
-- 🎵 Efek suara dinamis & ambience  
-- 🧭 Struktur modular  
-- ⚙️ Customizable UI theme  
-
----
-
-## 📁 Struktur Folder
-```
-/Assets
-  /Scripts
-    - MainMenuController.cs
-    - AudioManager.cs
-    - SceneLoader.cs
-  /UI
-    /Animations
-    /Buttons
-    /Fonts
-    /SFX
-```
+</div>
 
 ---
 
-## 🛠 Teknologi
-- Unity 2021+  
-- C#  
-- Photoshop / Figma  
-- Audacity / FL Studio  
+## ⭐ Fitur Utama
+<div style="display:flex; gap:20px; flex-wrap:wrap;">
+
+<div style="
+  flex:1; 
+  min-width:250px; 
+  border:1px solid #e5e7eb; 
+  padding:20px; 
+  border-radius:12px;
+  background:#f9fafb;">
+<h3>🏥 Manajemen Pasien</h3>
+<p>Pencatatan data pasien, rekam medis, jadwal periksa, riwayat penanganan, dan poli.</p>
+</div>
+
+<div style="
+  flex:1; 
+  min-width:250px; 
+  border:1px solid #e5e7eb; 
+  padding:20px; 
+  border-radius:12px; 
+  background:#f9fafb;">
+<h3>📡 IoT Monitoring</h3>
+<p>Pantauan suhu, kapasitas ruang, dan peralatan medis secara real-time.</p>
+</div>
+
+<div style="
+  flex:1; 
+  min-width:250px; 
+  border:1px solid #e5e7eb; 
+  padding:20px; 
+  border-radius:12px; 
+  background:#f9fafb;">
+<h3>🤖 AI Diagnosis</h3>
+<p>Membantu prediksi awal penyakit menggunakan rule-based & machine learning.</p>
+</div>
+
+</div>
 
 ---
 
-## 📥 Cara Instalasi
-
-```bash
-git clone https://github.com/username/ThePath-HorrorUI.git
-```
-
-1. Buka project di Unity  
-2. Masuk ke scene:
-   ```
-   /Assets/Scenes/MainMenu.unity
-   ```
-3. Tekan **Play**
-
----
-
-## 📌 Preview UI
-
-<table align="center">
+## 🛠️ Teknologi yang Digunakan
+<table style="width:100%; border-collapse:collapse;">
 <tr>
-<td align="center">
-  <img src="https://via.placeholder.com/240" width="240"><br>
-  Halaman Utama (Efek Glitch)
-</td>
-<td align="center">
-  <img src="https://via.placeholder.com/240" width="240"><br>
-  Hover Button Effect
-</td>
-<td align="center">
-  <img src="https://via.placeholder.com/240" width="240"><br>
-  Transisi ke Gameplay
-</td>
+<td style="padding:12px;">🔧 <b>Backend</b></td>
+<td style="padding:12px;">PHP 8, MySQL, XAMPP</td>
+</tr>
+<tr>
+<td style="padding:12px;">🎨 <b>Frontend</b></td>
+<td style="padding:12px;">HTML5, TailwindCSS, Alpine.js</td>
+</tr>
+<tr>
+<td style="padding:12px;">☁️ <b>Cloud</b></td>
+<td style="padding:12px;">Firebase, AWS S3 (opsional)</td>
+</tr>
+<tr>
+<td style="padding:12px;">📡 <b>IoT</b></td>
+<td style="padding:12px;">ESP32, MQTT, Node-RED</td>
 </tr>
 </table>
 
 ---
 
-## 💻 Contoh Script
-
-### Hover Effect
-```csharp
-public void OnHover()
-{
-    animator.SetTrigger("Hover");
-    audioManager.Play("hoverSFX");
-}
+## 📂 Struktur Project
 ```
-
-### Scene Transition
-```csharp
-public void PlayGame()
-{
-    StartCoroutine(LoadSceneWithFade("GameScene"));
-}
+/smart-hospital
+│── /public
+│── /views
+│── /controllers
+│── /models
+│── /config
+│── index.php
 ```
 
 ---
 
-## 📚 Roadmap
-- [x] Animasi UI dasar  
-- [x] Efek glitch  
-- [ ] Pengaturan audio  
-- [ ] Pengaturan grafis  
-- [ ] Cutscene pembuka  
+## 🚀 Cara Install
+```
+git clone https://github.com/username/smart-hospital.git
+cd smart-hospital
+
+Import database → database.sql
+Buka di browser: http://localhost/smart-hospital
+```
+
+---
+
+## 📸 Demo UI <a name="demo"></a>
+
+### Dashboard
+<img src="https://via.placeholder.com/800x380/0ea5e9/ffffff?text=Dashboard+Preview" style="width:100%; border-radius:12px;" />
+
+### IoT Monitoring
+<img src="https://via.placeholder.com/800x380/10b981/ffffff?text=IoT+Realtime+Monitoring" style="width:100%; border-radius:12px;" />
+
+### Manajemen Pasien
+<img src="https://via.placeholder.com/800x380/f59e0b/ffffff?text=Patient+Management" style="width:100%; border-radius:12px;" />
 
 ---
 
 ## 🤝 Kontribusi
-Pull Request dipersilakan.  
-Buat branch baru sebelum melakukan perubahan.
+Pull request terbuka!  
+Silakan buat branch baru sebelum mengirim kontribusi.
 
 ---
 
-## 📄 Lisensi
-MIT License.
+## 📜 Lisensi
+MIT © 2025
 
----
-
-<p align="center"><b>⭐ Beri Star jika proyek ini bermanfaat!</b></p>
