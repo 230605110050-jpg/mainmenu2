@@ -1,30 +1,77 @@
-# 🚀 Interactive Horror UI – Main Menu Game “The Path”
+<!-- ===================== STYLES ======================= -->
+<style>
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 12px 0;
+    color: #e63946;
+  }
+  .subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1d3557;
+    margin-top: 25px;
+  }
+  .section {
+    background: #f8f9fa;
+    padding: 14px;
+    border-left: 5px solid #457b9d;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+  .feature-list li {
+    margin: 6px 0;
+  }
+  .img-preview {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    margin: 10px 0;
+  }
+</style>
 
-Main menu ini dirancang menggunakan Unity dengan fokus pada atmosfer horror yang imersif. Proyek ini menampilkan animasi UI yang halus, efek glitch, sound ambience, dan navigasi interaktif untuk menciptakan pengalaman menu utama yang kuat dan menarik bagi pemain.
+<!-- ===================== HEADER ======================= -->
+
+<h1 align="center" class="title">🎮 Interactive Horror UI – Main Menu Game “The Path”</h1>
+
+<p align="center">
+UI Horror interaktif dengan animasi glitch, atmosfer gelap, dan sound ambience untuk menciptakan menu utama yang imersif pada game The Path.
+</p>
 
 ---
 
-## 🎮 Demo
+<!-- ===================== DEMO ======================= -->
 
-### 🔥 Preview / Rekaman Gameplay
-> Masukkan link demo Anda di sini (YouTube, Google Drive, atau GIF).
+<h2 class="subtitle">🔥 Demo</h2>
 
-Contoh GIF:
-![demo](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+<div class="section">
+Tambahkan link demo (YouTube/Drive/GIF) di sini.
 
----
-
-## ✨ Fitur Utama
-
-- 🔥 Animasi transisi UI (fade, glitch, hover effect)
-- 👁 Desain atmosfer horror yang imersif
-- 🎵 Efek suara dinamis (hover, click, ambience)
-- 🧭 Struktur modular, mudah dikembangkan
-- ⚙️ Tampilan dapat dikustomisasi penuh sesuai tema lain
+<p>
+<img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="450" class="img-preview">
+</p>
+</div>
 
 ---
 
-## 🧩 Struktur Folder
+<!-- ===================== FEATURES ======================= -->
+
+<h2 class="subtitle">✨ Fitur Utama</h2>
+
+<div class="section">
+<ul class="feature-list">
+  <li>🔥 Animasi transisi UI (fade, glitch, hover effect)</li>
+  <li>👁 Atmosfer horror yang imersif</li>
+  <li>🎵 Efek suara dinamis & ambience loop</li>
+  <li>⚙️ Struktur modular, mudah dikembangkan</li>
+  <li>🧭 Tampilan dan tema dapat dikustomisasi penuh</li>
+</ul>
+</div>
+
+---
+
+<!-- ===================== STRUCTURE ======================= -->
+
+<h2 class="subtitle">📁 Struktur Folder</h2>
 
 ```
 /Assets
@@ -41,52 +88,73 @@ Contoh GIF:
 
 ---
 
-## 🛠 Teknologi yang Digunakan
+<!-- ===================== TECHNOLOGY ======================= -->
 
-- Unity 2021 atau lebih baru  
-- C#  
-- Photoshop / Figma untuk desain UI  
-- Audacity / FL Studio untuk editing suara  
+<h2 class="subtitle">🛠 Teknologi yang Digunakan</h2>
+
+<div class="section">
+- Unity 2021+<br>
+- C#<br>
+- Photoshop / Figma (UI design)<br>
+- Audacity / FL Studio (audio)
+</div>
 
 ---
 
-## 📥 Instalasi & Cara Menjalankan
+<!-- ===================== INSTALL ======================= -->
 
-1. Clone repository:
-   ```bash
-   git clone https://github.com/username/ThePath-HorrorUI.git
-   ```
-2. Buka menggunakan **Unity Editor**  
-3. Buka scene:
+<h2 class="subtitle">📥 Instalasi & Menjalankan</h2>
+
+```
+git clone https://github.com/username/ThePath-HorrorUI.git
+```
+
+1. Buka project di Unity  
+2. Buka scene:  
    ```
    /Assets/Scenes/MainMenu.unity
    ```
-4. Tekan tombol **Play** untuk menjalankan aplikasi.
+3. Tekan **Play**
 
 ---
 
-## 📌 Preview UI
+<!-- ===================== PREVIEW UI ======================= -->
 
-| Tampilan | Keterangan |
-|---------|------------|
-| ![img](https://via.placeholder.com/250) | Halaman utama dengan efek glitch |
-| ![img](https://via.placeholder.com/250) | Tombol dengan animasi hover |
-| ![img](https://via.placeholder.com/250) | Transisi menuju gameplay |
+<h2 class="subtitle">📌 Preview UI</h2>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://via.placeholder.com/230" class="img-preview"><br>
+Halaman utama dengan efek glitch
+</td>
+<td align="center">
+<img src="https://via.placeholder.com/230" class="img-preview"><br>
+Tombol hover animasi distortion
+</td>
+<td align="center">
+<img src="https://via.placeholder.com/230" class="img-preview"><br>
+Transisi menuju gameplay
+</td>
+</tr>
+</table>
 
 ---
 
-## 🎤 Event & Contoh Script
+<!-- ===================== CODE EXAMPLES ======================= -->
 
-### 🎯 Hover Effect (C#)
+<h2 class="subtitle">💻 Contoh Script</h2>
+
+### Hover Effect (C#)
 ```csharp
 public void OnHover()
 {
-    buttonAnimator.SetTrigger("Hover");
+    animator.SetTrigger("Hover");
     audioManager.Play("hoverSFX");
 }
 ```
 
-### 🎯 Scene Transition
+### Scene Transition
 ```csharp
 public void PlayGame()
 {
@@ -96,30 +164,36 @@ public void PlayGame()
 
 ---
 
-## 📚 Roadmap
+<!-- ===================== ROADMAP ======================= -->
+
+<h2 class="subtitle">📚 Roadmap</h2>
 
 - [x] Animasi UI dasar  
-- [x] Efek glitch & transisi  
+- [x] Efek glitch & ambience  
 - [ ] Pengaturan audio  
 - [ ] Pengaturan grafis  
 - [ ] Sistem multi-bahasa  
-- [ ] Integrasi cutscene opening  
+- [ ] Integrasi cutscene pembuka  
 
 ---
 
-## 🤝 Kontribusi
+<!-- ===================== CONTRIBUTING ======================= -->
 
-Silakan buat branch baru sebelum melakukan pull request.  
-Semua bentuk kontribusi sangat dihargai!
+<h2 class="subtitle">🤝 Kontribusi</h2>
 
----
-
-## 📄 Lisensi
-
-Proyek ini dirilis menggunakan lisensi **MIT** dan bebas digunakan untuk pengembangan lebih lanjut.
+<div class="section">
+Pull Request sangat dipersilakan!  
+Harap buat branch baru sebelum melakukan perubahan.
+</div>
 
 ---
 
-## ⭐ Dukungan
+<!-- ===================== LICENSE ======================= -->
 
-Bantu proyek ini berkembang dengan memberi **star ⭐ di GitHub**!
+<h2 class="subtitle">📄 Lisensi</h2>
+
+Proyek ini menggunakan lisensi **MIT**.
+
+---
+
+<h3 align="center">⭐ Beri Star di GitHub jika proyek ini membantumu!</h3>
