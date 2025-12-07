@@ -1,78 +1,33 @@
-<!-- ===================== STYLES ======================= -->
-<style>
-  .title {
-    font-size: 32px;
-    font-weight: bold;
-    padding: 12px 0;
-    color: #e63946;
-  }
-  .subtitle {
-    font-size: 22px;
-    font-weight: bold;
-    color: #1d3557;
-    margin-top: 25px;
-  }
-  .section {
-    background: #f8f9fa;
-    padding: 14px;
-    border-left: 5px solid #457b9d;
-    border-radius: 8px;
-    margin-top: 8px;
-  }
-  .feature-list li {
-    margin: 6px 0;
-  }
-  .img-preview {
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    margin: 10px 0;
-  }
-</style>
-
-<!-- ===================== HEADER ======================= -->
-
-<h1 align="center" class="title">🎮 Interactive Horror UI – Main Menu Game “The Path”</h1>
+<h1 align="center">🎮 Interactive Horror UI – Main Menu Game “The Path”</h1>
 
 <p align="center">
-UI Horror interaktif dengan animasi glitch, atmosfer gelap, dan sound ambience untuk menciptakan menu utama yang imersif pada game The Path.
+UI Horror interaktif dengan efek glitch, atmosfer gelap, dan animasi transisi untuk menghadirkan pengalaman menu utama yang imersif.
 </p>
 
 ---
 
-<!-- ===================== DEMO ======================= -->
+## 🚀 Demo
 
-<h2 class="subtitle">🔥 Demo</h2>
+### 🎥 Preview / Rekaman
+Tambahkan link demo di sini:
 
-<div class="section">
-Tambahkan link demo (YouTube/Drive/GIF) di sini.
-
-<p>
-<img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="450" class="img-preview">
+<p align="center">
+  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="500">
 </p>
-</div>
 
 ---
 
-<!-- ===================== FEATURES ======================= -->
+## ✨ Fitur Utama
 
-<h2 class="subtitle">✨ Fitur Utama</h2>
-
-<div class="section">
-<ul class="feature-list">
-  <li>🔥 Animasi transisi UI (fade, glitch, hover effect)</li>
-  <li>👁 Atmosfer horror yang imersif</li>
-  <li>🎵 Efek suara dinamis & ambience loop</li>
-  <li>⚙️ Struktur modular, mudah dikembangkan</li>
-  <li>🧭 Tampilan dan tema dapat dikustomisasi penuh</li>
-</ul>
-</div>
+- 🔥 Animasi glitch, fade, dan hover effect  
+- 👁 Tema horror atmosferik  
+- 🎵 Efek suara dinamis & ambience  
+- 🧭 Struktur modular  
+- ⚙️ Customizable UI theme  
 
 ---
 
-<!-- ===================== STRUCTURE ======================= -->
-
-<h2 class="subtitle">📁 Struktur Folder</h2>
-
+## 📁 Struktur Folder
 ```
 /Assets
   /Scripts
@@ -88,29 +43,22 @@ Tambahkan link demo (YouTube/Drive/GIF) di sini.
 
 ---
 
-<!-- ===================== TECHNOLOGY ======================= -->
-
-<h2 class="subtitle">🛠 Teknologi yang Digunakan</h2>
-
-<div class="section">
-- Unity 2021+<br>
-- C#<br>
-- Photoshop / Figma (UI design)<br>
-- Audacity / FL Studio (audio)
-</div>
+## 🛠 Teknologi
+- Unity 2021+  
+- C#  
+- Photoshop / Figma  
+- Audacity / FL Studio  
 
 ---
 
-<!-- ===================== INSTALL ======================= -->
+## 📥 Cara Instalasi
 
-<h2 class="subtitle">📥 Instalasi & Menjalankan</h2>
-
-```
+```bash
 git clone https://github.com/username/ThePath-HorrorUI.git
 ```
 
 1. Buka project di Unity  
-2. Buka scene:  
+2. Masuk ke scene:
    ```
    /Assets/Scenes/MainMenu.unity
    ```
@@ -118,34 +66,30 @@ git clone https://github.com/username/ThePath-HorrorUI.git
 
 ---
 
-<!-- ===================== PREVIEW UI ======================= -->
+## 📌 Preview UI
 
-<h2 class="subtitle">📌 Preview UI</h2>
-
-<table>
+<table align="center">
 <tr>
 <td align="center">
-<img src="https://via.placeholder.com/230" class="img-preview"><br>
-Halaman utama dengan efek glitch
+  <img src="https://via.placeholder.com/240" width="240"><br>
+  Halaman Utama (Efek Glitch)
 </td>
 <td align="center">
-<img src="https://via.placeholder.com/230" class="img-preview"><br>
-Tombol hover animasi distortion
+  <img src="https://via.placeholder.com/240" width="240"><br>
+  Hover Button Effect
 </td>
 <td align="center">
-<img src="https://via.placeholder.com/230" class="img-preview"><br>
-Transisi menuju gameplay
+  <img src="https://via.placeholder.com/240" width="240"><br>
+  Transisi ke Gameplay
 </td>
 </tr>
 </table>
 
 ---
 
-<!-- ===================== CODE EXAMPLES ======================= -->
+## 💻 Contoh Script
 
-<h2 class="subtitle">💻 Contoh Script</h2>
-
-### Hover Effect (C#)
+### Hover Effect
 ```csharp
 public void OnHover()
 {
@@ -164,36 +108,24 @@ public void PlayGame()
 
 ---
 
-<!-- ===================== ROADMAP ======================= -->
-
-<h2 class="subtitle">📚 Roadmap</h2>
-
+## 📚 Roadmap
 - [x] Animasi UI dasar  
-- [x] Efek glitch & ambience  
+- [x] Efek glitch  
 - [ ] Pengaturan audio  
 - [ ] Pengaturan grafis  
-- [ ] Sistem multi-bahasa  
-- [ ] Integrasi cutscene pembuka  
+- [ ] Cutscene pembuka  
 
 ---
 
-<!-- ===================== CONTRIBUTING ======================= -->
-
-<h2 class="subtitle">🤝 Kontribusi</h2>
-
-<div class="section">
-Pull Request sangat dipersilakan!  
-Harap buat branch baru sebelum melakukan perubahan.
-</div>
+## 🤝 Kontribusi
+Pull Request dipersilakan.  
+Buat branch baru sebelum melakukan perubahan.
 
 ---
 
-<!-- ===================== LICENSE ======================= -->
-
-<h2 class="subtitle">📄 Lisensi</h2>
-
-Proyek ini menggunakan lisensi **MIT**.
+## 📄 Lisensi
+MIT License.
 
 ---
 
-<h3 align="center">⭐ Beri Star di GitHub jika proyek ini membantumu!</h3>
+<p align="center"><b>⭐ Beri Star jika proyek ini bermanfaat!</b></p>
